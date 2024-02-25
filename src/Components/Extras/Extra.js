@@ -23,11 +23,11 @@ function Extra() {
                         <input type="text" />
                         <button className="button">Search</button>
                     </div>
-                    <div className="flexCenter stat">
+                    <div className="flexCenter stats">
                         <div className="flexColCenter stat">
                             <span>
                                 <CountUp start={8500} end={9000} duration={4} />
-                                <span>+</span>
+                                <span> +</span>
                             </span>
                             <span className="secondaryText">
                                 Premium Properties
@@ -38,7 +38,7 @@ function Extra() {
                             <span>
                                 <CountUp start={50} end={90} duration={4} />
 
-                                <span>+</span> </span>
+                                <span> +</span> </span>
                             <span className="secondaryText">
                                 Happy Clients
                             </span>
@@ -48,7 +48,7 @@ function Extra() {
                             <span>
                                 <CountUp start={10} end={25} duration={4} />
 
-                                <span>+</span> </span>
+                                <span> +</span> </span>
                             <span className="secondaryText">
                                 Award Winning
                             </span>
@@ -59,7 +59,7 @@ function Extra() {
 
                 <div className="flexCenter extra-right">
                     <div className="image-container">
-                        <img src="./mainImage.png" alt="main image" />
+                        <img src="./main.jpg" alt="main image" />
                     </div>
                 </div>
             </div>
