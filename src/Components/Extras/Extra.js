@@ -2,6 +2,7 @@ import React from 'react'
 import "./Extra.css"
 import { HiLocationMarker } from "react-icons/hi";
 import CountUp from "react-countup";
+import {motion} from 'framer-motion'
 
 function Extra() {
     return (
@@ -11,7 +12,14 @@ function Extra() {
                 <div className="flexColStart extra-left">
                     <div className="extra-title">
                         <div className="blueCircle"></div>
-                        <h1>Discover <br /> Most Perfect <br /> Property</h1>
+                        <motion.h1
+                        initial={{y:"2rem", opacity:0}}
+                        animate={{y:0, opacity:1}}
+                        transition={{
+                            duration:4,
+                            type:"ease-in"
+                        }}
+                        >Discover <br /> Most Perfect <br /> Property</motion.h1>
                     </div>
                     <div className="flexColStart extra-des">
                         <span className="secondaryText">Find Beautiful properties that suite you the best</span>
@@ -58,9 +66,16 @@ function Extra() {
                 </div>
 
                 <div className="flexCenter extra-right">
-                    <div className="image-container">
+                    <motion.div 
+                     initial={{x: "7rem", opacity:0}}
+                     animate={{x: 0, opacity:1}}
+                     transition={{
+                         duration:4,
+                         type:"ease-in"
+                     }}
+                    className="image-container">
                         <img src="./main.jpg" alt="main image" />
-                    </div>
+                    </motion.div>
                 </div>
             </div>
         </section>

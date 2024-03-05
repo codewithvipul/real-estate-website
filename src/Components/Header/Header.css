@@ -1,6 +1,7 @@
 .h-wrapper{
     /* background-color: black; */
     color: white;
+    z-index: 99;
 }
 
 .h-container{
@@ -44,5 +45,6 @@ a:hover {
         border-radius: 10px;
         align-items: flex-start;
         box-shadow: var(--shadow);
+        transition: all 300ms ease-in;
     }
 }
