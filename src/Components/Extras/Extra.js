@@ -35,7 +35,7 @@ function Extra() {
                         <div className="flexColCenter stat">
                             <span>
                                 <CountUp start={8500} end={9000} duration={4} />
-                                <span> +</span>
+                                <span>+</span>
                             </span>
                             <span className="secondaryText">
                                 Premium Properties
@@ -46,7 +46,7 @@ function Extra() {
                             <span>
                                 <CountUp start={50} end={90} duration={4} />
 
-                                <span> +</span> </span>
+                                <span>+</span> </span>
                             <span className="secondaryText">
                                 Happy Clients
                             </span>
@@ -56,7 +56,7 @@ function Extra() {
                             <span>
                                 <CountUp start={10} end={25} duration={4} />
 
-                                <span> +</span> </span>
+                                <span>+</span> </span>
                             <span className="secondaryText">
                                 Award Winning
                             </span>
